@@ -59,6 +59,10 @@ console.log(`cityName_L = ${cityName_L}`);
 /** 
  * To find if the String starts with the exact given pattern
  * function: startsWith()
+ * input: 1
+ *      String
+ * return type:
+ *      boolean
  * 
  * if String starts with the given pattern
  *      method returns true
