@@ -70,4 +70,18 @@ console.log(`does sentence3 contains "${checkPattern}" : ${includesResult}`);
  * 
  * indexOfBody === lastIndexOfBody && indexOfBody >= 0
  * 
+ * 
+ * const sentence3 = "have a great day";
+ * 
+ * indexOf 'body' -> 32
+ * lastindexOf 'body' -> 32
+ * 
+ * indexOfBody === lastIndexOfBody && indexOfBody >= 0 -> true
+ * 
+ * 
+ * indexOf 'body' -> -1
+ * lastindexOf 'body' -> -1
+ * 
+ * indexOfBody === lastIndexOfBody && indexOfBody >= 0  -> false
+ * 
  */

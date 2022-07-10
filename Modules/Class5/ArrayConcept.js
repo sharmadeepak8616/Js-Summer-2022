@@ -18,7 +18,7 @@ console.log(totalPlanets);
 
 
 /**
- * Array: values stored using the concept of index.;
+ * Array: values stored using the concept of index.
  * 
  * first value goes to index-0
  * second value goes to index-1

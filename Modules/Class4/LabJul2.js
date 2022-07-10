@@ -84,7 +84,10 @@ let num;
  */
 console.log(`num -> ${num}`);
 
-
+/**
+ * 1) if String has more than one instance of 'b' (ignoring cases), assign 10 into num
+ * otherwise assign 20 into num
+ */
 
 
 
