@@ -1,3 +1,6 @@
+
+// Due date: Fri (Jul 15) eod
+
 /**
  * create two variables, one is to store studentScore, and another one to store maxScore
  * based on the student percentage, print the grade.
