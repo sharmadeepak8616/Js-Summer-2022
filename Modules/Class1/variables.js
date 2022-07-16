@@ -47,7 +47,7 @@ console.log(typeof myAge);
  *      var
  * 
  * var -> allows us to redeclare variable using same-name of existing variable
- * let -> does NOT allow to redeclare variable using same-name of existing variable
+ * let -> does NOT allow to redeclare variable using same-name of existing variable in the same scope
  * --> let is better
  * 
  * 
