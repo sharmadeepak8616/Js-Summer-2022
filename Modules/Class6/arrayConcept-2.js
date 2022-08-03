@@ -2,6 +2,30 @@ let planets = ['EArtH', 'MerCUry', 'VeNUS', 'JuIPteR', 'Pluto', 'SatuRN', 'MARS'
 console.log(`\nplanets -> ${planets}`);
 
 /**
+ * 
+ * Basic Array-functions: 
+ * 
+ * length
+ * []
+ * toString()
+ * join()
+ * pop()
+ * shift()
+ * delete() -> X
+ * push()
+ * unshift()
+ * splice()
+ * concat()
+ * includes()
+ * indexOf()
+ * lastIndexOf()
+ * isArray()
+ * fill()
+ * reverse()
+ * 
+ */
+
+/**
  * to find the length of array (or number of values in array)
  * property: length
  */

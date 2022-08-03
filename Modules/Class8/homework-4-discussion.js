@@ -61,9 +61,9 @@ const sports = ['Football', 'Soccer', 'BASKETBALL', 'Baseball', 'Rugby'];
  * if BASKETBALL is NOT present in the array, replace index-2 value with BASKETBALL and print the value which you replaced.
  * 
  *
- * if (sports[2].uppercase !== 'BASKETBALL' && sports.includes("BASKETBALL"))
+ * if (sports.includes("BASKETBALL") && sports[2].toUpperCase() !== 'BASKETBALL')       // BASKETBALL is NOT present in array
  *      print "BASKETBALL is mentioned in the sports array"
- * else if (sports[2].uppercase === 'BASKETBALL') {
+ * else if (sports[2].uppercase === 'BASKETBALL') {                                     // BASKETBALL is at index2
  *      print "BASKETBALL is present at index-2"
  * } else {
  *      replace index-2 value with BASKETBALL

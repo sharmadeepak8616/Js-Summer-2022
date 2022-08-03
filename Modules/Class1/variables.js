@@ -23,6 +23,10 @@
  * 
  */
 
+const Class1 = require("../Class13/InheritancePkg/Class1");
+const Students = require("../Class14/ClassConceptPkg/Students");
+
+
 /**
  * Variables
  * 
@@ -108,3 +112,16 @@ console.log(`My name is ${userName} and I am ${userAge} years old`);
 let userName1 = 'Anail';     // to store String-value in variable, enclose the value in single-quotes.
 let userAge1 = 20;
 console.log(`My name is ${userName1} and I am ${userAge1} years old`);
+
+
+const c1 = new Class1();
+
+c1.showMyName1();
+
+
+
+Students.messageFromClass2022();
+
+const s = new Students();
+
+s.enrollment('KiaN', 20, 'usa', 'mobiLE');

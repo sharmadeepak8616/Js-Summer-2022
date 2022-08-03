@@ -259,10 +259,10 @@ while (w <= sports.length-1) {
  * 
  * -> Code inside the do-while loop will always run at least once.
  * -> For first execution do-while loop doesn't check any condition.
- *     whereas for/while loop does check condition from first execution.
+ *     whereas for/while loop does check condition before first execution.
  */
 console.log('\nUsing do-while-loop');
-let d=10;
+let d=0;
 do {
     console.log(sports[d]);
     d++;
