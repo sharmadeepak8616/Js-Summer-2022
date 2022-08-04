@@ -32,7 +32,7 @@
  * Invite lab instructors as collaborator
  * Clone the repo in local
  * 
- * 
+ * Before starting your work:
  * Open terminal
  * Make sure that you are on master or main branch
  * Perform "git pull" to pull code from remote-master to local-master
