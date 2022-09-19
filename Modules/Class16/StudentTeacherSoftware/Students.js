@@ -1,5 +1,6 @@
 const Members = require("./Members");
 const MyStringFunctions = require("./MyStringFunctions");
+const Users = require("../../Tutoring/Mikel/Users");
 
     // Array of course-objects
     const courseDetails = [
@@ -63,7 +64,7 @@ class Students extends Members {
             this.#student.sCourseDetails.courseLength = courseData.length;
             this.#student.sBalance = courseData.price;
             this.#student.sId = ++Students.#idValue;
-            Students.#allStudentObjects.push(this.#student);
+            Students.#allStudentObjects.push(this);
             console.log(`\nThank you for enrolling.\nYour id value is ${this.#student.sId}\n`);
         } else {
             throw 'Invalid data provided'
@@ -134,6 +135,21 @@ class Students extends Members {
      * 
      */
 
+
+    static getStudentObject(id) {
+        const u1 = new Users();
+        u1.userAbove18(10);
+        u1.printHello();
+
+        const u2 = new Users();
+        u2.userAbove18(10);
+        u2.printHello();
+
+        u1.age = 20;
+
+        
+        return Students.#allStudentObjects.find(studentObject => studentObject.#student.sId === id);
+    }
 
 }
 module.exports = Students;

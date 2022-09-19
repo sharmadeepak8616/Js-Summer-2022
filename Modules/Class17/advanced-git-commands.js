@@ -28,14 +28,14 @@
 /**
  * Steps:
  * 
- * Create a repo in github (js-wdio-summer-2022)
+ * Create a repo in github (Js-Summer-Wdio-2022)
  * Invite lab instructors as collaborator
  * Clone the repo in local
  * 
- * 
+ * Before start working:
  * Open terminal
  * Make sure that you are on master or main branch
- * Perform "git pull" to pull code from remote-master to local-master
+ * Pull code from remote-master to local-master (using git pull)
  * Create new branch (using git branch newBranchName)
  * Checkout on the new branch (using git checkout newBranchName)
  * Push newBranch into remote (using git push -u origin newBranchName)
@@ -43,9 +43,9 @@
  * 
  * Once done:
  * Push all relevant code files in git (using git add/commit/push)
- * Create a merge request and assign lab instructor as review
+ * Go to github: Create a merge request and assign lab instructor as review
  * 
- * --> Lab instructors will merge your code in to master.
+ * --> Lab instructor(or Reviewer) will merge your code in to master.
  * 
  * Once code is merged in master:
  * Open terminal

@@ -1,4 +1,5 @@
 const Members = require("./Members");
+const Students = require("./Students");
 
 class Teachers extends Members {
 
@@ -43,8 +44,17 @@ class Teachers extends Members {
      *      then print -> Invalid student id  
      * 
      */
-    addGrade() {
-        // code
+    addGrade(studentId, grade) {
+        const sObject = Students.getStudentObject(studentId);
+        if (sObject) {
+            if (sObject.#student.sGrade.localCompare('') === 0) {
+                sObject.#student.sGrade = grade.toUpperCase();
+            } else {
+                console.log('Student has grade already');
+            }
+        } else {
+            console.log('Invalid student id');
+        }
     }
 
     /**
@@ -65,5 +75,11 @@ class Teachers extends Members {
         // code
     }
 
+
+    /**
+     * updateGrade
+     * 
+     * 
+     */
 
 }

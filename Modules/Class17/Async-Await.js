@@ -44,8 +44,12 @@
 */
 
 async function myFunction() {
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-    console.log(response);
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+        console.log(response);
+    } catch (e) {
+        console.log(e);
+    }     
 }
 
 

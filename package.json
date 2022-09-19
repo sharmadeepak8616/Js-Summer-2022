@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sharmadeepak8616/Js-Summer-2022/issues"
   },
-  "homepage": "https://github.com/sharmadeepak8616/Js-Summer-2022#readme"
+  "homepage": "https://github.com/sharmadeepak8616/Js-Summer-2022#readme",
+  "dependencies": {
+    "node": "^18.9.0",
+    "node-fetch": "^2.6.7"
+  }
 }

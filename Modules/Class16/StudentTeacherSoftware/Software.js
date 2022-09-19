@@ -1,27 +1,35 @@
 const Students = require('./Students');
+const Users = require('../../Tutoring/Mikel/Users');
 
 
-let s1; 
-let s2; 
-let s3;
+// const s1 = new Students('jOHn', 32, 'USA', 'mobile');
 
-    // s1 = new Students('jOHn', 2, 'USA', 'mobile');
-    // s1.showMyDetails();
+// const s4 = new Students('jOHn', 22, 'USA', 'qa');
 
 
-
+const u = new Users();
+u.convertToTitleCase('kINg');
 
 
 
-try {
-    s1 = new Students('jOHn', 2, 'USA', 'mobile');
-    s1.showMyDetails();
 
-} catch(e) {
-    console.log('\nPlease enter valid data\n');
-} finally {
-    console.log('Thank you for considering our institution\n\n');
-}
+// let s1; 
+// let s2; 
+// let s3;
+
+//     // s1 = new Students('jOHn', 2, 'USA', 'mobile');
+//     // s1.showMyDetails();
+
+
+// try {
+//     s1 = new Students('jOHn', 2, 'USA', 'mobile');
+//     s1.showMyDetails();
+
+// } catch(e) {
+//     console.log('\nPlease enter valid data\n');
+// } finally {
+//     console.log('Thank you for considering our institution\n\n');
+// }
 
 
 // try {
