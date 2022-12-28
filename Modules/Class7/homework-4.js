@@ -7,7 +7,7 @@
  * 
  * Grade-A : 91-100% 
  * Grade-B : 81-90.99% 
- * Grade-c : 71-80.99%
+ * Grade-C : 71-80.99%
  * Grade-D : 61-70.99%
  * Grade-E : 51-60.99%
  * Grade-F : less than 51%

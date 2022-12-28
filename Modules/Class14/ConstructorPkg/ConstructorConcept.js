@@ -10,7 +10,18 @@
  *          If there is any user-defined constructor in a class, js will NEVER create default constructor; 
  *              AND use the user-defined constructor in order to create the object.
  *      3. In JS: we cannot have two constructors in a class
+ *         In Java: we CAN have two or constructors in a class
+ *      4. Constructor function can have input-parameters as well
+ *      5. there will NEVER be a return statement in a Constructor-function
  * 
+ * 
+ * 
+ * Only w.r.t. Java:
+ * how can we have two or more functions with same name in a class?
+ * Compile Time polymorphism (Method Overloading / Constructor Overloading)
+ * 
+ * Method Overloading - Two or more functions with same name but different parameters in a class
+ * Constructor Overloading - Two or more Constructor-functions but different parameters in a class
  *      
  * 
  * 

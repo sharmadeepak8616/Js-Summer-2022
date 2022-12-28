@@ -1,6 +1,6 @@
 /**
  * To compare if two Strings are equal
- * function: localCompare
+ * function: localeCompare
  * 
  * If both Strings are equal, function returns 0
  * If String is greater than another, function returns 1
