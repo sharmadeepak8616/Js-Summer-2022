@@ -132,7 +132,6 @@ console.log(myObj);
 
 // Delete 'ssn number' attribute and it's value
 // delete myObj['ssn number'];
-
 console.log(delete myObj.abcd);
 
 /**

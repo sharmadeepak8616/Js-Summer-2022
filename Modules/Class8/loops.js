@@ -49,7 +49,7 @@ console.log('Hello World!');    // 20   counter <= 20
 
 console.log('\n\nfor-loop\n\n');
 
-for (let counter = 21 ; counter <= 20 ; counter++) {
+for (let counter = 1 ; counter <= 5 ; counter++) {
     console.log('Hello World!');
 }
 /**

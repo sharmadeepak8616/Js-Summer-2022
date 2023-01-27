@@ -1,5 +1,10 @@
 /**
  *  1. Assignment Operators (=)
+ *      is used to assign/reassign value in a variable.
+ * 
+ *      Js solves the right-hand side of the assignment-operator, 
+ *      and result gets assigned to the variable on the left-hand side of the assignment-operator.
+ * 
  */
 let myName = 'Happy';
 console.log(myName);
